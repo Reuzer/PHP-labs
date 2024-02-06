@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="Logo_Polytech_rus_main.jpg" alt="Polytech-logo">
+    <header class="header">
+        <div class="header__wrapper">
+            <img class="header__logo" src="Logo_Polytech_rus_main.jpg" alt="Polytech-logo">
+            <h1>Задание Hello-World</h1>
+        </div>      
     </header>
 </body>
 </html>

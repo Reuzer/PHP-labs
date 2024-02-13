@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+}
+.header__wrapper{
+    display: flex;
+}
+.header__text{
+    margin: auto;
+}

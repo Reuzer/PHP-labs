@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php
+    get_headers('https://caninclude.glitch.me/caninclude?child=img&parent=h4')
+    ?>
 </body>
 </html>

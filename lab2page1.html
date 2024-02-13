@@ -9,10 +9,26 @@
     <header>Feedback Form</header>
     <main>
         <div class="container">
-            <form method="post">
-                
+            <form action="https://httpbin.org/post" method="post">
+                <div class="mb3">
+                    <label for="name">Enter your name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="mb3">
+                    <label for="mail">Enter your Thurname</label>
+                    <input type="text" name="mail" id="mail">
+                </div>
+                <div class="mb3">
+                    <label for="email">Enter your email</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="mb3">
+                    <textarea name="desc" id="" cols="30" rows="10">desc</textarea>
+                    
+                </div>
             </form>
         </div>
+        <a href="lab2page2.php">Переход на 2 страницу</a>
     </main>
 </body>
 </html>

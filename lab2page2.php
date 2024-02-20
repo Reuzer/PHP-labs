@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-    get_headers('https://caninclude.glitch.me/caninclude?child=img&parent=h4')
+    print_r(get_headers('https://caninclude.glitch.me/caninclude?child=img&parent=h4'));
     ?>
     <a href="lab2page1.html">На первую страницу</a>
 </body>

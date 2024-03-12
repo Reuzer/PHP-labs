@@ -25,6 +25,7 @@ function calculate() {
     .catch(error => console.error('Ошибка:', error));
 }
 
+
 document.addEventListener("DOMContentLoaded", function() {
     const urlParams = new URLSearchParams(window.location.search);
     const result = urlParams.get('result');
